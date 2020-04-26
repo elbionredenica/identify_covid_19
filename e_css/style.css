@@ -1,0 +1,253 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    text-align: center;
+    margin: 0;
+    padding: 0 
+}  
+
+.dashboardbody {
+  text-align: left;
+}
+
+* {
+    font-family: Poppins, sans-serif;
+}
+
+form {
+      border: none;
+      border-radius: 20px 0px 0px 20px;
+      padding: 50px;
+      box-shadow: 3px 3px 10px #333;
+}
+
+input[type=text], input[type=number], input[type=date] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  font-size: 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  border-radius: 10px
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  border-radius: 10px
+}
+
+input[type=submit] {
+    color: black;
+    background: #F2994A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F2C94C, #F2994A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F2C94C, #F2994A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+input[type=submit]:hover {
+  opacity: 0.9;
+}
+
+.all {
+    display: inline-flex;
+    justify-content: center;
+    width: 85%;
+    margin: 20px
+}
+
+.theform {
+    flex: 60%
+}
+
+.info {
+    flex: 25%;
+    border: none;
+    border-radius: 0px 20px 20px 0px;
+    padding: 25px;
+    box-shadow: 3px 3px 10px #333;
+    background: #F2994A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F2C94C, #F2994A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F2C94C, #F2994A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    color: #222
+}
+
+#tutorial {
+    margin-top: 15px
+}
+
+#example {
+    margin-top: 50px
+}
+
+#title {
+    font-size: 25px;
+}
+
+/* responsiveness */
+@media screen and (max-width: 600px) {
+  
+}
+
+.theicon {
+    font-size: 40px;
+    color:#F2994A
+}
+
+.theiconindex {
+    font-size: 50px;
+    color: #00788A;
+}
+
+.backarrow {
+    position: absolute;
+    cursor: pointer;
+    margin: 25px
+}
+
+.container_all {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background: #F2994A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F2C94C, #F2994A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F2C94C, #F2994A);
+    height: 100vh
+}
+
+.toAdd {
+    flex: 50%;
+    justify-content: center;
+    vertical-align: middle;
+    text-align: center;
+    border-right: 0.25px solid #333;
+    border-left: none;
+    border-top: none;
+    border-bottom: none
+}
+
+.toProf {
+    flex: 50%;
+    justify-content: center;
+    vertical-align: middle;
+    text-align: center;
+    border: none;
+}
+
+#mytable {
+  transition: 1s;
+  position: relative;
+  text-align: center;
+}
+
+#mytable > tbody > tr > td > a {
+    transition: .75s;
+  color: #F2994A;
+  
+}
+
+#mytable > tbody > tr > td{
+  text-align: center;
+  width: 10%;
+}
+
+#mytable > tbody > tr > td > a:hover {
+  transition: .75s;
+  font-size: 30px;
+}
+
+table {
+  font-family: "Poppins", sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table td, table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  background-color: #f2f2f2;
+  text-align: center;
+  
+}
+
+table td {
+  font-weight: 350;
+}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background: #F2C94C;
+  color: #333;
+  font-weight: 500;
+}
+
+.container_done {
+    margin: 0;
+    padding: 0;
+    background: #F2994A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F2C94C, #F2994A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F2C94C, #F2994A);
+    height: 100vh
+}
+
+.addmore {
+  text-decoration: none;
+  background-color: #00788A;
+  border-radius: 10px;
+  padding: 10px 50px;
+  color: white
+}
+
+.addmore:hover {
+  opacity: .8
+}
+
+.addone {
+  display: inline-flex;
+  justify-content: center;
+  position: fixed;
+  left: 10px;
+  bottom: 2.5%;
+  background: #F2994A;
+  background: -webkit-linear-gradient(to right, #F2C94C, #F2994A); 
+  background: linear-gradient(to right, #F2C94C, #F2994A);
+  background-size: contain;
+  border-radius: 10px;
+  padding: 25px;
+  cursor: pointer;
+  opacity: 0.5;
+  height: 50px;
+  text-align: center;
+  width: 50px;
+  transition: .5s
+}
+
+.addone:hover {
+  opacity: 1;
+  height: 75px;
+  width: 75px;
+}
+
+.addone > h1 {
+  color: #333;
+  font-size: 25px;
+  margin: 10px;
+  font-family: Poppins, sans-serif;
+}
